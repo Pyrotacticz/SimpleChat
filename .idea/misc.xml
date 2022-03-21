@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/James Files/Work/School/Projects/SimpleChat/app/src/main/res/drawable/message_incoming.xml" value="0.1665" />
+        <entry key="..\:/James Files/Work/School/Projects/SimpleChat/app/src/main/res/drawable/message_outgoing.xml" value="0.1665" />
+        <entry key="..\:/James Files/Work/School/Projects/SimpleChat/app/src/main/res/layout/activity_chat.xml" value="0.15121580547112462" />
+        <entry key="..\:/James Files/Work/School/Projects/SimpleChat/app/src/main/res/layout/message_incoming.xml" value="0.15121580547112462" />
+        <entry key="..\:/James Files/Work/School/Projects/SimpleChat/app/src/main/res/layout/message_outgoing.xml" value="0.1" />
+        <entry key="..\:/James Files/Work/School/Projects/SimpleChat/app/src/main/res/layout/messages_outgoing.xml" value="0.15121580547112462" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.10364583333333334" />
       </map>
     </option>

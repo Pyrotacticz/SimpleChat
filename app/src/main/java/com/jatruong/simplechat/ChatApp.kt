@@ -2,6 +2,7 @@ package com.jatruong.simplechat
 
 import android.app.Application
 import com.parse.Parse
+import com.parse.ParseObject
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 
@@ -9,6 +10,8 @@ import okhttp3.logging.HttpLoggingInterceptor
 class ChatApplication : Application() {
     override fun onCreate() {
         super.onCreate()
+
+        ParseObject.registerSubclass(Message::class.java)
 
         // Use for monitoring Parse network traffic
         val builder = OkHttpClient.Builder()
