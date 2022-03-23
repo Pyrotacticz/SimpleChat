@@ -67,7 +67,7 @@ class ChatActivity : AppCompatActivity() {
                         this,
                         "Successfully created message on Parse",
                         Toast.LENGTH_SHORT
-                    )
+                    ).show()
                     Log.i(TAG, "Message Saved")
                 } else {
                     Log.e(TAG, "Failed to save message", e)
